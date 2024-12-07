@@ -22,14 +22,14 @@ body {
     position: absolute;
     inset: 0;
     background-image: url(bg.jpg);
-    background-size: cover; 
+    background-size: 100% 100%; 
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     z-index: -1;
 
     mask-image: url(ink.gif);
-    mask-size: cover;
+    mask-size: 100% 100%; 
     mask-position: center;
     mask-repeat: no-repeat;
 }
